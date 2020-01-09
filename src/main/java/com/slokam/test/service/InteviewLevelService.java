@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.InteviewLevel;
-import com.slokam.hr.repo.InteviewLevelRepo;
+import com.slokam.test.entity.InteviewLevel;
+import com.slokam.test.repo.InteviewLevelRepo;
 
 import java.util.*;
 

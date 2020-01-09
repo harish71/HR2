@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.Skill;
-import com.slokam.hr.repo.SkillRepo;
+import com.slokam.test.entity.Skill;
+import com.slokam.test.repo.SkillRepo;
 
 import java.util.*;
 

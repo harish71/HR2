@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.Openning;
-import com.slokam.hr.repo.OpenningRepo;
-import com.slokam.hr.service.OpenningService;
+import com.slokam.test.entity.Openning;
+import com.slokam.test.repo.OpenningRepo;
+import com.slokam.test.service.OpenningService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

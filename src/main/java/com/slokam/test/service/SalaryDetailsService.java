@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.SalaryDetails;
-import com.slokam.hr.repo.SalaryDetailsRepo;
+import com.slokam.test.entity.SalaryDetails;
+import com.slokam.test.repo.SalaryDetailsRepo;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.slokam.hr.controller;
+package com.slokam.test.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 import org.springframework.http.HttpStatus;
 
-import com.slokam.hr.entity.Qualification;
-import com.slokam.hr.service.QualificationService;
+import com.slokam.test.entity.Qualification;
+import com.slokam.test.service.QualificationService;
 
 @RestController
 @RequestMapping("Qualification") 

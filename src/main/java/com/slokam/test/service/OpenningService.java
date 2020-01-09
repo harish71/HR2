@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.Openning;
-import com.slokam.hr.repo.OpenningRepo;
+import com.slokam.test.entity.Openning;
+import com.slokam.test.repo.OpenningRepo;
 
 import java.util.*;
 

@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.Joining;
-import com.slokam.hr.repo.JoiningRepo;
-import com.slokam.hr.service.JoiningService;
+import com.slokam.test.entity.Joining;
+import com.slokam.test.repo.JoiningRepo;
+import com.slokam.test.service.JoiningService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

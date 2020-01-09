@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.Position;
-import com.slokam.hr.repo.PositionRepo;
+import com.slokam.test.entity.Position;
+import com.slokam.test.repo.PositionRepo;
 
 import java.util.*;
 

@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.InterviewInvitation;
-import com.slokam.hr.repo.InterviewInvitationRepo;
-import com.slokam.hr.service.InterviewInvitationService;
+import com.slokam.test.entity.InterviewInvitation;
+import com.slokam.test.repo.InterviewInvitationRepo;
+import com.slokam.test.service.InterviewInvitationService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

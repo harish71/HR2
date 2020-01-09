@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.Shortlisted;
-import com.slokam.hr.repo.ShortlistedRepo;
-import com.slokam.hr.service.ShortlistedService;
+import com.slokam.test.entity.Shortlisted;
+import com.slokam.test.repo.ShortlistedRepo;
+import com.slokam.test.service.ShortlistedService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

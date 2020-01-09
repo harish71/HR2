@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.Shortlisted;
-import com.slokam.hr.repo.ShortlistedRepo;
+import com.slokam.test.entity.Shortlisted;
+import com.slokam.test.repo.ShortlistedRepo;
 
 import java.util.*;
 

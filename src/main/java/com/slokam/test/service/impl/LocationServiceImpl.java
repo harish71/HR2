@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.Location;
-import com.slokam.hr.repo.LocationRepo;
-import com.slokam.hr.service.LocationService;
+import com.slokam.test.entity.Location;
+import com.slokam.test.repo.LocationRepo;
+import com.slokam.test.service.LocationService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

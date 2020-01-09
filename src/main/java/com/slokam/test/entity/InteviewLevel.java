@@ -1,4 +1,4 @@
-package com.slokam.hr.entity; 
+package com.slokam.test.entity; 
  import java.io.Serializable; 
  import javax.persistence.*; 
  import java.util.*; 

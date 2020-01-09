@@ -1,7 +1,7 @@
-package com.slokam.hr.repo;
+package com.slokam.test.repo;
 				import org.springframework.data.jpa.repository.JpaRepository;
 				import org.springframework.stereotype.Repository;
-				import com.slokam.hr.entity.Location;
+				import com.slokam.test.entity.Location;
 				@Repository
 				public interface LocationRepo extends JpaRepository<Location, Integer> {
 

@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.Joining;
-import com.slokam.hr.repo.JoiningRepo;
+import com.slokam.test.entity.Joining;
+import com.slokam.test.repo.JoiningRepo;
 
 import java.util.*;
 

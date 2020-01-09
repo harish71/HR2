@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.InteviewLevel;
-import com.slokam.hr.repo.InteviewLevelRepo;
-import com.slokam.hr.service.InteviewLevelService;
+import com.slokam.test.entity.InteviewLevel;
+import com.slokam.test.repo.InteviewLevelRepo;
+import com.slokam.test.service.InteviewLevelService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.SalaryDetails;
-import com.slokam.hr.repo.SalaryDetailsRepo;
-import com.slokam.hr.service.SalaryDetailsService;
+import com.slokam.test.entity.SalaryDetails;
+import com.slokam.test.repo.SalaryDetailsRepo;
+import com.slokam.test.service.SalaryDetailsService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,8 +1,8 @@
-package com.slokam.hr.service.impl;
+package com.slokam.test.service.impl;
 
-import com.slokam.hr.entity.Application;
-import com.slokam.hr.repo.ApplicationRepo;
-import com.slokam.hr.service.ApplicationService;
+import com.slokam.test.entity.Application;
+import com.slokam.test.repo.ApplicationRepo;
+import com.slokam.test.service.ApplicationService;
 import org.springframework.stereotype.Service;
 import java.util.*;
 import org.springframework.beans.factory.annotation.Autowired;

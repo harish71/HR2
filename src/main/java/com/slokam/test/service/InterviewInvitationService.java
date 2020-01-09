@@ -1,7 +1,7 @@
-package com.slokam.hr.service;
+package com.slokam.test.service;
 
-import com.slokam.hr.entity.InterviewInvitation;
-import com.slokam.hr.repo.InterviewInvitationRepo;
+import com.slokam.test.entity.InterviewInvitation;
+import com.slokam.test.repo.InterviewInvitationRepo;
 
 import java.util.*;
 
