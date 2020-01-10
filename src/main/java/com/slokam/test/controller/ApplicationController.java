@@ -20,6 +20,7 @@ public class ApplicationController {
 	 @PostMapping("/save") 
 	 public ResponseEntity<Application>	 saveApplication(@RequestBody Application obj)
 	 throws Exception{
+		  System.out.println(obj.getUploadFile().getOriginalFilename());
 		  service.save(obj);
 		  return new ResponseEntity<Application>(obj,HttpStatus.CREATED);
 	 }
