@@ -1,10 +1,15 @@
 package com.slokam.test.entity; 
  import java.io.Serializable; 
- import javax.persistence.*; 
- import java.util.*; 
+ import javax.persistence.*;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.*; 
 @Entity 
 public class Application implements Serializable { 
 
+	
+	
 @Id 
  @GeneratedValue 
   private Integer  id;
@@ -15,6 +20,17 @@ public class Application implements Serializable {
 @JoinColumn(name="fkid53") 
    private Openning  openning;
   private Date  time;
+  
+  @Transient
+  private MultipartFile uploadFile; 
+  
+  
+public MultipartFile getUploadFile() {
+	return uploadFile;
+}
+public void setUploadFile(MultipartFile uploadFile) {
+	this.uploadFile = uploadFile;
+}
 public Integer getId() {
 		return id;
 	}
