@@ -15,40 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController
-<<<<<<< HEAD
-@RequestMapping("imports")
-public class DataImportController {
-	
-	@Value("${app.upload.location}")
-	private String uploadPath;
-	@Autowired
-	 private JavaMailSender  mailSender;
-	@PostMapping("/Candidate")
-	public ResponseEntity<String> uploadCandidate(MultipartFile multipartFile){
-		
-		System.out.println(multipartFile.getOriginalFilename());
-		
-		try {
-			multipartFile.transferTo(new File(uploadPath+multipartFile.getOriginalFilename()));
-			 SimpleMailMessage  mail=new SimpleMailMessage();
-             mail.setTo("shiva2013to2017@gmail.com"); 
-             mail.setFrom("shivaseternaluniverse@gmail.com");
-             mail.setSubject("Test Subject");
-             mail.setText("Hello Shivakumar, We are from Slokam you have Uploaded a File"); 
-             mailSender.send(mail); 
-			System.out.println("File Uploaded Successfully");
-		} catch (IllegalStateException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}	
-		
-		return new ResponseEntity<String>(HttpStatus.OK);
-		
-	}
 
-}
-=======
 @RequestMapping("import")
 public class DataImportController {
 
@@ -95,4 +62,3 @@ public class DataImportController {
 	
 }
 
->>>>>>> e3af983130e6525ea95b0e29b87f3ab15cd71251
